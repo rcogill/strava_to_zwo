@@ -10,6 +10,6 @@ where `FILENAME.json` is the file containing the Strava activity stream and `FTP
 
 To access an activity stream, append `streams` to the URL of the page of the associated Strava activity. For example, if the Strava activity page is `https://www.strava.com/activities/2264175248`, the corresponding stream can be accessed at `https://www.strava.com/activities/2264175248/streams`. This JSON-formatted activity stream can then be saved directly within your browser or by cutting-and-pasting into a text editor. A sample activity stream is provided in the file `rc_fig_8.json` in this repository.
 
-Once a .zwo file has been generated, this workout can be used within Zwift by placing this file in the `Documents/Zwift/Workouts/<<Numeric Zwift Id>>` directory associated with your Zwift installation. Detailed instructions on how to use custom structured workout files within Zwift are provided [HERE](`https://support.zwift.com/en/-sharing-importing-custom-workouts-(.zwo-files)-(cycling)-r1IlCybrQ`). 
+Once a .zwo file has been generated, this workout can be used within Zwift by placing this file in the `Documents/Zwift/Workouts/<<Numeric Zwift Id>>` directory associated with your Zwift installation. Detailed instructions on how to use custom structured workout files within Zwift are provided [HERE](https://support.zwift.com/en/-sharing-importing-custom-workouts-(.zwo-files)-(cycling)-r1IlCybrQ). 
 
 In addition to the `strava_to_zwo.py` script, this repository contains a Jupyter notebook that elaborates on the steps required to generate the structured workout file.
